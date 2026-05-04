@@ -331,6 +331,16 @@ h3 {
   margin: 0;
 }
 
+.contact-note a {
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.contact-note a:hover,
+.contact-note a:focus-visible {
+  text-decoration: underline;
+}
+
 .site-footer {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
